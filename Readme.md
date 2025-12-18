@@ -4,17 +4,17 @@ Below you can find a outline of how to reproduce my solution for the <MABe Chall
 If you run into any trouble with the setup/code or have any questions please contact me at <gosuxd1@gmail.com>
 
 
-#DATA SETUP
+# DATA SETUP
 Data should be downloaded from Kaggle competition website and placed under /datamount/. Then preprocess the data to create the master skeleton using preprocess_skelet.py
 
-#Example Training and Inference
+# Example Training and Inference
 `python train.py -C cfg_XXX` where XXX is the number of config
 `python inference.py` (currently evalutes with same weights as final submission)
  
-#Recreating 5th place submission:
+# Recreating 5th place submission:
 Use checkpoints which are located under output/mabe-weights then do inference using the provided inference.py. This directory contains all of the necessary weights used for the final submission.
 
-#Project Structure
+# Project Structure
 
 - CONFIGS: Contains all of the configuration files for each model specifically. Some redundancy is present between files, however that makes the repository plug&play and training is a simple as changing the cfg argument during training.
 
@@ -42,7 +42,7 @@ Use checkpoints which are located under output/mabe-weights then do inference us
 - train.py main entrypoint for training
 - inference.py inference script for predicting
 
-#HARDWARE: (The following specs were used to create the original solution)
+# HARDWARE: (The following specs were used to create the original solution)
 Ubuntu 22.04.3 LTS
 CPU: i7-13700K (24 vCPUs)
 2 x NVIDIA RTX 4090 (24GB each)
