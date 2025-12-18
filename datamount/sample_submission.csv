@@ -1,0 +1,2 @@
+row_id,video_id,agent_id,target_id,action,start_frame,stop_frame
+0,438887472,mouse1,mouse2,sniff,0,1

@@ -1,0 +1,6 @@
+transformers==4.35.0
+neptune==1.8.2
+python-decouple==3.8
+torch==2.5.1
+pyarrow
+tqdm
