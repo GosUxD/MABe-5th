@@ -23,15 +23,15 @@ Use checkpoints which are located under output/mabe-weights then do inference us
 - METRICS: implementation of the official metric used for evaluation score.
 
 - MODELS: contains each model/model_family. The following models/model families are used for the final submission:
- - 233 Family: weights 273;274;275;276 (4fold CV)
- - 234 Family: weights 278;279;284;285 (4fold CV)
- - 238 Family: weights 289;290;293;292 (4fold CV)
- - 240 Family: weights 240;
- - 242 Family: weights 242;
- - 243 Family: weights 294;295;297 (3fold CV)
- - 244 Family: weights 244;
- - 245 Family: weights 264;266;267;269 (4fold CV)
- - 256 Family: weights 256;
+  - 233 Family: weights 273;274;275;276 (4fold CV)
+  - 234 Family: weights 278;279;284;285 (4fold CV)
+  - 238 Family: weights 289;290;293;292 (4fold CV)
+  - 240 Family: weights 240;
+  - 242 Family: weights 242;
+  - 243 Family: weights 294;295;297 (3fold CV)
+  - 244 Family: weights 244;
+  - 245 Family: weights 264;266;267;269 (4fold CV)
+  - 256 Family: weights 256;
 
 - OUTPUT: contains all of the checkpoints/weights ready for inference
 
